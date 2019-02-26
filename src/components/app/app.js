@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import List from "../List";
+import List from "../list";
 import "./app.css";
 
 export default class App extends Component {
@@ -24,7 +24,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="app">
-        <List todos={todoData} />
+        <List todos={this.state.todoData} />
       </div>
     );
   }
