@@ -14,12 +14,12 @@ export default class ListItem extends Component {
       <span>
         <span className="todo-list-item-label">{label}</span>
 
-        <button type="button" className="">
+        <button type="button" className="btn info">
           Button-1
           <i className="fa fa-exclamation" />
         </button>
 
-        <button type="button" className="btn">
+        <button type="button" className="btn info">
           Button-2
           <i className="fa fa-trash-o" />
         </button>
