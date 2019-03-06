@@ -17,3 +17,10 @@
   background: #2196f3;
   color: white;
 }
+.wrapper-list-item {
+  display: flex;
+  justify-content: space-between;
+}
+.list-item-label {
+  flex: 1;
+}

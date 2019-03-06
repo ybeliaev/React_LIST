@@ -11,16 +11,14 @@ export default class ListItem extends Component {
     const { label, done, important } = this.props;
 
     return (
-      <span>
-        <span className="todo-list-item-label">{label}</span>
+      <span className="wrapper-list-item">
+        <span className="list-item-label">{label}</span>
 
         <button type="button" className="btn info">
-          Button-1
           <i className="fa fa-exclamation" />
         </button>
 
         <button type="button" className="btn info">
-          Button-2
           <i className="fa fa-trash-o" />
         </button>
       </span>

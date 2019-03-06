@@ -8,13 +8,13 @@ const List = ({ todos }) => {
     const { id, ...itemProps } = item;
 
     return (
-      <li key={id} className="list-group-item">
+      <li key={id} className="list-item">
         <ListItem {...itemProps} />
       </li>
     );
   });
 
-  return <ul className="list-group todo-list">{elements}</ul>;
+  return <ul className="todo-list">{elements}</ul>;
 };
 
 export default List;
